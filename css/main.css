@@ -245,6 +245,18 @@
   }
 }
 
+.font-italic {
+  font-style: italic;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
 html {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;

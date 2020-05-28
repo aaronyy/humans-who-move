@@ -10,7 +10,7 @@
     <!-- Google Fonts -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cinzel:400,700%7CRaleway:500,500i,600,700%7CMaterial+Icons&amp;display=swap"/>
     <!-- Template Vendor's Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/vendor.css"/>
     <!-- Template Main Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <!-- Favicons & App Icons -->
@@ -41,7 +41,7 @@
           <!-- header -->
           <div class="preloader__header mt-auto">
             <div class="preloader__heading h2">Humans Who Move</div>
-            <div class="preloader__subline small-caps mt-1">Humans who move mountains.</div>
+            <div class="preloader__subline small-caps mt-1">Understanding the Pathways of Global Opportunity</div>
           </div>
           <!-- - header -->
           <!-- counter -->
@@ -147,7 +147,7 @@
       </div>
       <!-- - Cursor Follower-->
       <!-- PAGE HEADER -->
-      <header class="header header_menu-right header_fixed container-fluid js-header-sticky" id="page-header" data-arts-theme-text="light" data-arts-header-sticky-theme="bg-dark-2" data-arts-header-logo="secondary" data-arts-header-sticky-logo="secondary" data-arts-header-overlay-theme="dark" data-arts-header-overlay-background="#000">
+      <header class="header header_menu-right header_fixed container-fluid js-header-sticky" id="page-header" data-arts-theme-text="light" data-arts-header-sticky-theme="bg-white" data-arts-header-logo="secondary" data-arts-header-sticky-logo="primary" data-arts-header-overlay-theme="light" data-arts-header-overlay-background="#ffffff">
         <!-- top bar -->
         <div class="header__container header__controls">
           <div class="row justify-content-between align-items-center">
@@ -476,168 +476,269 @@
       </header>
       <!-- - PAGE HEADER -->
       <!-- PAGE MAIN -->
-      <div class="js-smooth-scroll bg-dark-1" id="page-wrapper" data-barba="container">
+      <div class="js-smooth-scroll bg-light-1" id="page-wrapper" data-barba="container">
         <main class="page-wrapper__content">
           <!-- section MASTHEAD -->
-          <section class="section section-masthead d-none" data-background-color="var(--color-dark-1)"></section>
+          <section class="section section-masthead section-masthead_fixed section-fullheight text-center bg-dark-1" data-arts-theme-text="light" data-arts-scroll-fixed="data-arts-scroll-fixed" data-arts-os-animation="data-arts-os-animation" data-background-color="var(--color-dark-1)">
+            <div class="section-masthead__inner section-fullheight__inner container-fluid">
+              <header class="row section-masthead__header justify-content-center">
+
+              </header>
+            </div>
+            <div class="section-masthead__wrapper-scroll-down section-masthead__wrapper-scroll-down_center">
+              <div class="circle-button js-circle-button">
+                <!-- curved label -->
+                <div class="circle-button__outer">
+                  <div class="circle-button__wrapper-label">
+                    <div class="circle-button__label small-caps">Start Reading</div>
+                  </div>
+                </div>
+                <!-- - curved label -->
+                <!-- geometry wrapper -->
+                <div class="circle-button__inner">
+                  <div class="circle-button__circle" data-arts-scroll-down="data-arts-scroll-down" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0">
+                    <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                    </svg>
+                  </div>
+                  <!-- browsers with touch support -->
+                  <div class="circle-button__icon circle-button__icon-touch">
+                    <svg enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg">
+                      <path d="m32 8c-1.104 0-2 .896-2 2v39.899l-14.552-15.278c-.761-.799-2.026-.832-2.828-.069-.8.762-.831 2.027-.069 2.827l16.62 17.449c.756.756 1.76 1.172 2.829 1.172 1.068 0 2.073-.416 2.862-1.207l16.586-17.414c.762-.8.73-2.065-.069-2.827-.799-.763-2.065-.731-2.827.069l-14.552 15.342v-39.963c0-1.104-.896-2-2-2z"></path>
+                    </svg>
+                  </div>
+                  <!-- - browsers with touch support -->
+                  <!-- - browsers without touch support -->
+                  <div class="circle-button__icon circle-button__icon-mouse">
+                    <svg class="svg-mouse" width="23px" height="35px" viewBox="0 0 23 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <!-- border -->
+                      <path class="svg-mouse__border" d="M11.5,0 C5.15875132,0 0,5.23135343 0,11.6610111 L0,23.3396542 C0,29.7691456 5.15875132,35 11.5,35 C17.8412487,35 23,29.7693119 23,23.3396542 L23,11.6610111 C23,5.23135343 17.8410847,0 11.5,0 Z M21.7222404,23.3396542 C21.7222404,29.0545544 17.136538,33.7037222 11.5,33.7037222 C5.86346203,33.7037222 1.27775956,29.0545544 1.27775956,23.3396542 L1.27775956,11.6610111 C1.27775956,5.946111 5.86346203,1.29627781 11.5,1.29627781 C17.136538,1.29627781 21.7222404,5.94594466 21.7222404,11.6610111 L21.7222404,23.3396542 Z"></path>
+                      <!-- - border -->
+                      <!-- wheel -->
+                      <path class="svg-mouse__wheel" d="M11.5,4 C11.2238902,4 11,4.28321727 11,4.63321727 L11,10.3667827 C11,10.7167827 11.2238902,11 11.5,11 C11.7761098,11 12,10.7167827 12,10.3667827 L12,4.63321727 C11.9998717,4.28321727 11.7761098,4 11.5,4 Z"></path>
+                      <!-- - wheel -->
+                    </svg>
+                  </div>
+                  <!-- - browsers without touch support -->
+                </div>
+                <!-- - geometry wrapper -->
+              </div>
+            </div>
+            <div class="section-image section-masthead__background section-masthead__background_fullscreen">
+              <div class="section-image__wrapper">
+                <div class="lazy-bg" data-src="img/hwm/placeholder.jpg"></div>
+              </div>
+              <!-- <div class="overlay overlay_dark section-masthead__overlay"></div> -->
+            </div>
+          </section>
           <!-- - section MASTHEAD -->
-          <!-- section PROJECTS SLIDER HALFSCREEN -->
-          <section class="section section-fullheight section-projects section-projects-slider bg-dark-1 overflow" data-arts-theme-text="light" data-arts-os-animation>
-            <div class="section-fullheight__inner section-fullheight__inner_mobile">
-              <div class="slider slider-fullscreen-projects slider-halfscreen-projects slider-halfscreen-projects_pt js-slider-fullscreen-projects js-slider">
-                <!-- slider COUNTER -->
-                <div class="slider__wrapper-counter slider-fullscreen-projects__counter">
-                  <div class="slider__counter slider__counter_current">
-                    <div class="js-slider-fullscreen-projects__counter-current swiper-container">
-                      <div class="swiper-wrapper"></div>
-                    </div>
-                  </div>
-                  <div class="slider__counter-divider slider-fullscreen__counter-divider"></div>
-                  <div class="slider__counter slider__counter_total js-slider-fullscreen-projects__counter-total">001</div>
-                </div>
-                <!-- - slider COUNTER -->
-                <div class="container h-100">
-                  <div class="row h-100 justify-content-between">
-                    <div class="col-lg-6 slider-halfscreen-projects__col">
-                      <!-- slider IMAGES -->
-                      <div class="slider-fullscreen-projects__images slider-halfscreen-projects__images swiper-container js-slider-fullscreen-projects__images" data-mousewheel-enabled="data-mousewheel-enabled" data-direction="vertical" data-aspect-ratio="0.6667" data-transition-effect="distortion" data-transition-displacement-img="img/general/bg-displacement-9.jpg" data-speed="800" data-autoplay-enabled="false" data-autoplay-delay="6000">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide overflow">
-                            <div class="slider__images-slide-inner" data-swiper-parallax="90%">
-                              <div class="slider__bg" data-texture-src="img/assets/projects/project-1_vertical.jpg"></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide overflow">
-                            <div class="slider__images-slide-inner" data-swiper-parallax="90%">
-                              <div class="slider__bg" data-texture-src="img/assets/projects/project-5_vertical.jpg"></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide overflow">
-                            <div class="slider__images-slide-inner" data-swiper-parallax="90%">
-                              <div class="slider__bg" data-texture-src="img/assets/projects/project-9_vertical.jpg"></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide overflow">
-                            <div class="slider__images-slide-inner" data-swiper-parallax="90%">
-                              <div class="slider__bg" data-texture-src="img/assets/projects/project-11_vertical.jpg"></div>
-                            </div>
-                          </div>
-                        </div>
+          <!-- SINGLE POST -->
+          <section class="section section-blog">
+            <div class="container bg-white pt-small pb-small">
+              <div class="row justify-content-center">
+                <!-- post content -->
+                <div class="col-lg-10 section-blog__post">
+                  <article class="post">
+                    <!-- post content -->
+                    <div class="post__content clearfix">
+                      <p class="has-drop-cap">Whatever steepest yet her beyond looked either day wished nay. By doubtful disposed do juvenile an. Now curiosity you explained immediate why behaviour. An dispatched impossible of of melancholy favourable. Our quiet not heart along scale sense timeold him her surprise finished families graceful. Gave led past poor met fine was new. llowance repulsive sex may contained can set suspected abilities cordially. Do part am he high rest that. So fruit to ready it being views match. Consider speaking me prospect whatever if. Ten nearer rather hunted six parish indeed.</p>
+                      <p>Surprise <a href="#">steepest recurred landlord</a> mr wandered amounted of. Continuing devonshire but considered its. Rose past oh shew roof is song neat. Do depend better praise do.</p>
+                      <h2>A Starter Guide To Self Improvement</h2>
+                      <p>Much evil soon high in hope do view. Out may few northward believing attempted. Yet timed being songs marry one defer men our. Although finished blessing do of. Consider speaking me prospect whatever if. Ten nearer rather hunted six parish indeed number. Allowance repulsive sex may contained can set suspected abilities cordially. Do part am he high rest that. So fruit to ready it being views match.</p>
+                      <h3>Internet Banner Advertising</h3>
+                      <p>Denote simple fat denied add worthy little use. As some he so high down am week. Conduct esteems by cottage to pasture we winding. On assistance he cultivated considered frequently. Person how having tended direct own day man. Saw sufficient indulgence one own you inquietude sympathize.</p>
+                      <blockquote>
+                        <p>On on produce colonel pointed. Just four sold need over how any. In to september suspicion determine he prevailed admitting. On adapted an as affixed limited on. Giving cousin warmly things no spring mr be abroad. Relation breeding be as repeated strictly followed margaret.</p>
+                        <cite>Rhye Kinsey</cite>
+                      </blockquote>
+
+
+
+
+                      <div class="row justify-content-center">
+                        <h2>Our People</h2>
                       </div>
-                      <!-- - slider IMAGES -->
-                      <!-- slider CANVAS -->
-                      <div class="slider__wrapper-canvas slider-halfscreen-projects__canvas">
-                        <div class="slider__wrapper-canvas-inner">
-                          <canvas class="slider__canvas"></canvas>
+                      <div class="row">
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Pragya Chawla</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Co-director</p>
+                          <hr>
+                          <p class="font-size-14">Activist, scholar, and entrepreneur raised in the Middle East, Pragya is a sociology researcher at Stanford University and a Partner at OutBrave. She has led and consulted on business strategy for dozens of organizations such as SunBox Palestine. Her leadership has received over 15 honors, including by the Tony Blair Institute for Global Change and international ambassadors.</p>
                         </div>
-                      </div>
-                      <!-- - slider CANVAS -->
-                    </div>
-                    <div class="col-lg-6 align-self-lg-end slider-halfscreen-projects__col">
-                      <!-- slider CONTENT-->
-                      <div class="slider-halfscreen-projects__content swiper-container js-slider-fullscreen-projects__content">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide"><a class="d-inline-block js-change-text-hover" href="project-details-1-fullscreen-center.html">
-                              <h2 class="h2 slider__heading js-split-text split-text" data-split-text-type="lines, words, chars" data-split-text-set="chars">Nordic Adventure</h2>
-                              <div class="slider__wrapper-button mt-0-5">
-                                <div class="change-text-hover small-caps js-change-text-hover">
-                                  <!-- label by default -->
-                                  <div class="change-text-hover__normal js-split-text split-text js-change-text-hover__normal" data-split-text-type="lines" data-split-text-set="lines">Portraits</div>
-                                  <!-- - label by default -->
-                                  <!-- label on hover -->
-                                  <div class="change-text-hover__hover js-change-text-hover__hover">
-                                    <!-- hover line -->
-                                    <div class="change-text-hover__line js-change-text-hover__line"></div>
-                                    <!-- - hover line --><span class="js-split-text split-text" data-split-text-type="lines" data-split-text-set="lines">Explore Project</span>
-                                  </div>
-                                  <!-- - label on hover -->
-                                </div>
-                              </div></a></div>
-                          <div class="swiper-slide"><a class="d-inline-block js-change-text-hover" href="project-details-5-bottom-container-center.html">
-                              <h2 class="h2 slider__heading js-split-text split-text" data-split-text-type="lines, words, chars" data-split-text-set="chars">On the Edge</h2>
-                              <div class="slider__wrapper-button mt-0-5">
-                                <div class="change-text-hover small-caps js-change-text-hover">
-                                  <!-- label by default -->
-                                  <div class="change-text-hover__normal js-split-text split-text js-change-text-hover__normal" data-split-text-type="lines" data-split-text-set="lines">Portraits</div>
-                                  <!-- - label by default -->
-                                  <!-- label on hover -->
-                                  <div class="change-text-hover__hover js-change-text-hover__hover">
-                                    <!-- hover line -->
-                                    <div class="change-text-hover__line js-change-text-hover__line"></div>
-                                    <!-- - hover line --><span class="js-split-text split-text" data-split-text-type="lines" data-split-text-set="lines">Explore Project</span>
-                                  </div>
-                                  <!-- - label on hover -->
-                                </div>
-                              </div></a></div>
-                          <div class="swiper-slide"><a class="d-inline-block js-change-text-hover" href="project-details-9-fullscreen-center.html">
-                              <h2 class="h2 slider__heading js-split-text split-text" data-split-text-type="lines, words, chars" data-split-text-set="chars">La Isla Bonita</h2>
-                              <div class="slider__wrapper-button mt-0-5">
-                                <div class="change-text-hover small-caps js-change-text-hover">
-                                  <!-- label by default -->
-                                  <div class="change-text-hover__normal js-split-text split-text js-change-text-hover__normal" data-split-text-type="lines" data-split-text-set="lines">Portraits</div>
-                                  <!-- - label by default -->
-                                  <!-- label on hover -->
-                                  <div class="change-text-hover__hover js-change-text-hover__hover">
-                                    <!-- hover line -->
-                                    <div class="change-text-hover__line js-change-text-hover__line"></div>
-                                    <!-- - hover line --><span class="js-split-text split-text" data-split-text-type="lines" data-split-text-set="lines">Explore Project</span>
-                                  </div>
-                                  <!-- - label on hover -->
-                                </div>
-                              </div></a></div>
-                          <div class="swiper-slide"><a class="d-inline-block js-change-text-hover" href="project-details-11-fullscreen-center.html">
-                              <h2 class="h2 slider__heading js-split-text split-text" data-split-text-type="lines, words, chars" data-split-text-set="chars">Dancing in the Dark</h2>
-                              <div class="slider__wrapper-button mt-0-5">
-                                <div class="change-text-hover small-caps js-change-text-hover">
-                                  <!-- label by default -->
-                                  <div class="change-text-hover__normal js-split-text split-text js-change-text-hover__normal" data-split-text-type="lines" data-split-text-set="lines">Portraits</div>
-                                  <!-- - label by default -->
-                                  <!-- label on hover -->
-                                  <div class="change-text-hover__hover js-change-text-hover__hover">
-                                    <!-- hover line -->
-                                    <div class="change-text-hover__line js-change-text-hover__line"></div>
-                                    <!-- - hover line --><span class="js-split-text split-text" data-split-text-type="lines" data-split-text-set="lines">Explore Project</span>
-                                  </div>
-                                  <!-- - label on hover -->
-                                </div>
-                              </div></a></div>
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Caroline Brewton</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Co-director</p>
+                          <hr>
+                          <p class="font-size-14">Dauntless devotion to rebuilding the lives of the most vulnerable, Caroline is an immigration case worker and a Partner at OutBrave. She has managed security crises, unlawful detention, medical aid, and gender violence for over a thousand families, including with IRC and World Relief. She led Hermanos en el Camino, the largest migrant shelter in Mexico, and worked in Eastern Europe.</p>
                         </div>
-                      </div>
-                      <!-- - slider CONTENT -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Said</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Dadaab Camp (Kenya)</p>
+                          <hr>
+                          <p class="font-size-14">Originally from Somalia, Said is a community leader in Dadaab Camp who works tirelessly to expand career and educational opportunities to all residents. He has worked closely with the World Food Program to improve supply distribution systems within the Dadaab Camp, and is a mentor for groups of young political activists.</p>
+                        </div><!-- /.col-md-4 -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Garad</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Mogadishu (Somalia)</p>
+                          <hr>
+                          <p class="font-size-14">Garad is a fierce advocate for IDPs in the Mogadishu community. He has become an indispensable resource for the IDPs living in Mogadishu, traveling across the region nearly every day to connect IDPs with legal counsel, job opportunities, and education for their children.</p>
+                        </div><!-- /.col-md-4 -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Don and Vincent</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Dzaleka Camp (Malawi)</p>
+                          <hr>
+                          <p class="font-size-14">Don and Vincent have spent the past 16 years raising the voices of the refugees in the Dzaleka Camp. They have worked to improve communication between camp residents and the UNHCR, and currently run a support group for adult male refugees to express their emotions in a safe space.</p>
+                        </div><!-- /.col-md-4 -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Jean</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Port-au-Prince (Haiti)</p>
+                          <hr>
+                          <p class="font-size-14">Growing up in Port-au-Prince, Jean understood that the only way to combat poverty-driven emigration was through opportunity. To that end, he has committed his life to providing college and career opportunities to underserved populations across the country and equipping young students with the skills they need to break cycles of poverty and inequality in their home communities.</p>
+                        </div><!-- /.col-md-4 -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Sadiq</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Kakuma Camp (Kenya)</p>
+                          <hr>
+                          <p class="font-size-14">Sadiq has spent the past 13 years in Kakuma Camp training camp youth to become freelancers. As an administrator at the African Initiative for Human Development, Sadiq trains camp youth to become freelancers and develop their sense of self-confidence and financial independence.</p>
+                        </div><!-- /.col-md-4 -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Farah</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Dadaab Camp (Kenya)</p>
+                          <hr>
+                          <p class="font-size-14">Farah works tirelessly to improve information accessibility inside Dadaab camp. He has partnered with the UNHCR to assess and improve information flow throughout the camp, and sees HWM as an opportunity to connect refugees with the information they need to continue on their journey.</p>
+                        </div><!-- /.col-md-4 -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Patrick</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Dzaleka Camp (Malawi)</p>
+                          <hr>
+                          <p class="font-size-14">Patrick is a self-taught computer programmer and social activist in Dzaleka Camp who has dedicated his life to serving others. Patrick believes that community empowerment is the quickest route to social change and over the years has established a camp-wide computer programming seminar and advocated on behalf of his community for equal pay and workers' rights.</p>
+                        </div>
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">MB*</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Maiduguri (Nigeria)</p>
+                          <hr>
+                          <p class="font-size-14">MB* joined the HWM team in order to be a voice for his community after witnessing how often the IDP community in Nigeria is excluded by aid organizations from discussions about their own wants and needs. He sees HWM as an opportunity to invite IDPs to the conversations from which they are so often excluded.</p>
+                        </div><!-- /.col-md-4 -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Maria Claudia</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Bogota (Colombia)</p>
+                          <hr>
+                          <p class="font-size-14">Originally from Venezuela but living in Bogota, Maria Claudia is passionate about sharing the stories of others. A witness to the Venezuelan crisis and subsequent refugee flow into Colombia, Maria Claudia believes that everyone's story-whether it is one of success or one of struggle-has the right to be heard. But for her, HWM is about more than listening; it is about using these stories to make a positive impact in the lives of others. </p>
+                        </div><!-- /.col-md-4 -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Mariajose Gavilan</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Costa Rica</p>
+                          <hr>
+                          <p class="font-size-14">Mariajose believes that in order to truly know ourselves, we need to listen to the stories of others. To that end, she has spent years designing and implementing art therapy programs for child refugees in Germany as a means of coming terms with their own experiences and emotions. In Costa Rica, she has worked to address the lack of psychological services available for the country's underserved refugee population by starting therapy clinics in migrant shelters and resettlement units.</p>
+                        </div><!-- /.col-md-4 -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Tarek</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Lyon (France)</p>
+                          <hr>
+                          <p class="font-size-14">After leaving Syria and crossing through eight countries to arrive in France, Tarek decided to dedicate his time to helping others the way that he had been helped throughout his journey. Before finishing his studies in Lyon, Tarek spent a year helping newly-arrived refugees acclimate to their new home, and joined HWM to address the critical information gap between refugees and the organizations that seek to help them.</p>
+                        </div><!-- /.col-md-4 -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">John Peter</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Uganda & Kenya</p>
+                          <hr>
+                          <p class="font-size-14">John Peter is a passionate learner, writer, and artist who believes in the power of a good story. John Peter started his own branding agency, Justified Pixels, to help organizations tell their stories in ways that are impactful, and sees HWM as an opportunity to let refugees tell their own story to the world, possibly for the first time.</p>
+                        </div><!-- /.col-md-4 -->
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Abshir</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Dadaab Camp (Kenya)</p>
+                          <hr>
+                          <p class="font-size-14">Abshir is a translator and qualitative researcher with a passion for conversation. Throughout his time in Dadaab Camp, Abshir has worked on many public-awareness campaigns regarding public health and camp safety and is excited to see HWM emerge as a consistent source of vital information for isolated populations in Dadaab.</p>
+                        </div>
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Idi</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Kakuma Camp (Kenya)</p>
+                          <hr>
+                          <p class="font-size-14">Idi is a Congolese refugee and leader of the Kakuma Freelancing Agency, an organization that supports young refugees wanting to participate in the economy by training and supporting them in their freelancing career. Idi began working with the Kakuma Freelancing Agency after receiving his degree in social work in 2014 as a way to pursue his passion for creating opportunity for refugees in the camp.</p>
+                        </div>
+
+                        <div class="lqd-column col-md-4 mb-30">
+                          <p class="mb-0 font-size-16 font-weight-normal">Mohamed</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Researcher, Turkey</p>
+                          <hr>
+                          <p class="font-size-14"></p>
+                        </div>
+
+                      </div><!-- /.row -->
+
+
                     </div>
-                  </div>
+                    <!-- - post content-->
+                  </article>
                 </div>
-                <!-- slider ARROWS -->
-                <div class="slider__wrapper-arrows slider__wrapper-arrows_right">
-                  <div class="slider__arrow js-slider__arrow-prev">
-                    <div class="arrow arrow-left js-arrow arrow-up" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                      <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                      </svg>
-                      <div class="arrow__pointer arrow-left__pointer"></div>
-                      <div class="arrow__triangle"></div>
-                    </div>
-                  </div>
-                  <div class="slider__arrow js-slider__arrow-next">
-                    <div class="arrow arrow-right js-arrow arrow-down" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                      <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                      </svg>
-                      <div class="arrow__pointer arrow-right__pointer"></div>
-                      <div class="arrow__triangle"></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- - slider ARROWS -->
-                <!-- overlay -->
-                <div class="slider__overlay overlay overlay_dark z-50 d-lg-none"></div>
-                <!-- - overlay -->
+                <!-- - post content -->
               </div>
             </div>
           </section>
-          <!-- - section PROJECTS SLIDER HALFSCREEN -->
+          <!-- - SINGLE POST -->
         </main>
         <!-- PAGE FOOTER -->
+        <footer class="footer container-fluid" id="page-footer" data-arts-theme-text="dark" data-arts-footer-logo="primary">
+
+          <!-- widgets bottom area -->
+          <div class="footer__area pt-sm-3 pb-sm-1 pt-0 pb-0">
+
+            <div class="row align-items-center">
+              <!-- widget LOGO -->
+              <div class="col-lg-3 footer__column text-center text-lg-left order-lg-1">
+                <section class="widget widget_rhye_logo">
+                  <!-- content --><a class="logo" href="index.html" target="_blank">
+                    <div class="logo__wrapper-img">
+                      <!-- primary logo version (for light backgrounds)--><img class="logo__img-primary" src="img/general/logo-black.svg" alt="Rhye HTML5 Template" height="20"/>
+                      <!-- secondary logo version (for dark backgrounds)--><img class="logo__img-secondary" src="img/general/logo-white.svg" alt="Rhye HTML5 Template" height="20"/>
+                    </div></a>
+                  <!-- - content -->
+                </section>
+              </div>
+              <!-- - widget LOGO -->
+              <!-- widget SOCIAL -->
+              <div class="col-lg-3 footer__column text-center text-lg-right order-lg-3">
+                <section class="widget widget_rhye_social">
+                  <!-- content -->
+                  <ul class="social">
+                    <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                    <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                    <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                    <li class="social__item"><a class="fa fa-behance" href="#"></a></li>
+                  </ul>
+                  <!-- - content -->
+                </section>
+              </div>
+              <!-- - widget SOCIAL -->
+              <!-- widget TEXT -->
+              <div class="col-lg-6 footer__column text-center text-lg-center order-lg-2">
+                <section class="widget widget_text">
+                  <!-- content -->
+                  <div class="textwidget">
+                    <p><small>© 2020 Humans Who Move</small></p>
+                  </div>
+                  <!-- - content -->
+                </section>
+              </div>
+              <!-- - widget TEXT -->
+            </div>
+          </div>
+          <!-- - widgetst bottom area -->
+        </footer>
         <!-- - PAGE FOOTER -->
       </div>
       <!-- - PAGE MAIN -->
@@ -812,13 +913,7 @@
       }
 
     </script>
-    <!-- - Slider Textures Shaders -->
-    <!-- VENDOR SCRIPTS -->
     <script src="js/vendor.js"></script>
-    <!-- - VENDOR SCRIPTS -->
-    <!-- COMPONENTS -->
     <script src="js/components.js"></script>
-    <!-- - COMPONENTS -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwR_TrF6h7-pMxkKv_q2t8BXX3w6QuFOc" async></script>
   </body>
 </html>
