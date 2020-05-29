@@ -3479,6 +3479,22 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   font-size: 1.2em;
 }
 
+.bg-light-1 {
+  background-color: #6e89a7 !important;
+}
+
+.social__item a:hover {
+  color: #000;
+}
+
+.social__item a {
+  color: #fff;
+}
+
+.copyright-bottom p {
+  color: #fff;
+}
+
 /* ======================================================================== */
 /* 35. headerLogo */
 /* ======================================================================== */
