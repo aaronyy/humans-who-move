@@ -513,6 +513,12 @@
           $(window).trigger('resize');
       });
 
+      $("#bgvideo").on("loadeddata", function() {
+        vid_w_orig = parseInt($('#bgvideo')[0].videoWidth);
+        vid_h_orig = parseInt($('#bgvideo')[0].videoHeight);
+        resizeToCover();
+      });
+
       function resizeToCover() {
           console.log(vid_w_orig + ' ' + vid_h_orig)
           console.log(jQuery(window).width() + ' ' + jQuery(window).height())
