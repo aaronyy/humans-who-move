@@ -41,7 +41,8 @@
         <div class="header__container header__controls">
           <div class="row justify-content-between align-items-center">
             <!-- logo -->
-            <div class="col-auto header__col header__col-left"><a class="logo" href="index.html" target="_blank">
+            <div class="col-auto header__col header__col-left">
+              <a class="logo" href="index.html" target="_blank">
                 <div class="logo__wrapper-img">
                   <img class="logo__img-primary" src="img/logo.png"/>
                   <img class="logo__img-secondary" src="img/logo-white.png"/>
@@ -49,13 +50,15 @@
             </div>
             <!-- - logo -->
 
-            <div class="col-auto header__col">
-              <!-- <div class="header__burger" id="js-burger" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">
-                <div class="header__burger-line"></div>
-                <div class="header__burger-line"></div>
-                <div class="header__burger-line"></div>
-              </div> -->
+            <div class="col-auto header__col d-none d-lg-block">
+              <ul class="menu js-menu">
+                <li class="menu-item-has-children"><a href="#about">About</a></li>
+                <li class="menu-item-has-children"><a href="#team">Team</a></li>
+                <li class="menu-item-has-children"><a href="mailto:caroline@outbrave.org?subject=Humans Who Move">Contact</a></li>
+              </ul>
             </div>
+
+
             <div class="header__overlay-menu-back" id="js-submenu-back">
               <div class="arrow arrow-left js-arrow arrow_mini" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
                 <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -132,7 +135,7 @@
                   <article class="post">
                     <!-- post content -->
                     <div class="post__content clearfix">
-                      <div class="row justify-content-center">
+                      <div class="row justify-content-center pt-small" id="about">
                         <h2>Our History</h2>
                       </div>
 
@@ -140,7 +143,7 @@
                       <p>Migration shouldn't be a deadly journey.</p>
                       <p>Humans Who Move was founded on the idea that information capital is the key to making it safer. Our goal is simple: find out what information migrants need, and distribute it in a way that is accessible at all points during the journey. We work in 15 countries across the Middle East, Africa, Europe, Latin America, and the Caribbean to interview migrants and the people that help them on their journeys and transform their interviews into life-saving information, transmitted across the world to the most vulnerable.</p>
 
-                      <div class="row justify-content-center">
+                      <div class="row justify-content-center pt-small" id="team">
                         <h2>Our People</h2>
                       </div>
                       <div class="row">
@@ -257,10 +260,10 @@
                         </div>
 
                         <div class="lqd-column col-md-4 mb-30">
-                          <p class="mb-0 font-size-16 font-weight-normal">Research Staff</p>
-                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Turkey, Botswana, El Salvador, and Argentina</p>
+                          <p class="mb-0 font-size-16 font-weight-normal">Unlisted</p>
+                          <p class="mt-0 mb-0 font-size-16 ltr-sp-1 font-italic">Research Staff</p>
                           <hr>
-                          <p class="font-size-14">Finally, we have additional research staff in the field whose names are unlisted due to risks to theirs or their families' safety.</p>
+                          <p class="font-size-14">Finally, we have additional field staff in Turkey, Botswana, El Salvador, and Argentina whose names are unlisted due to risks to theirs or their families' safety.</p>
                         </div>
 
                       </div><!-- /.row -->

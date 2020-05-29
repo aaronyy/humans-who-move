@@ -3461,6 +3461,24 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   }
 }
 
+.header_sticky[data-arts-header-sticky-logo="primary"] .menu-item-has-children a {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu-item-has-children a {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.header[data-arts-theme-text="light"] a:hover {
+  color: var(--color-dark-2) !important;
+}
+
+.menu-item-has-children a {
+  font-size: 1.2em;
+}
+
 /* ======================================================================== */
 /* 35. headerLogo */
 /* ======================================================================== */
