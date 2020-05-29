@@ -311,6 +311,23 @@ a:hover {
   z-index: 50;
 }
 
+video#bgvideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(../img/hwm/placeholder.jpg) no-repeat;
+  background-size: cover;
+}
+
 /* ======================================================================== */
 /* 1. arrow */
 /* ======================================================================== */
@@ -824,7 +841,6 @@ a:hover {
 }
 
 .circle-button {
-  position: relative;
   display: inline-flex;
   vertical-align: bottom;
   align-items: center;
@@ -3253,6 +3269,10 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   cursor: pointer;
   pointer-events: initial;
   z-index: 500;
+}
+
+.wrap-arrows {
+  z-index: 10;
 }
 
 .header__burger:hover .header__burger-line:nth-of-type(1) {
